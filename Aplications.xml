@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="nnvs">
+<test name="demoqa">
+<parameter name="URL" value="https://demoqa.com/automation-practice-form">
+</parameter>
+<parameter name="fname" value="nikehil">
+</parameter>
+<parameter name="lname" value="tellagadda">
+</parameter>
+<parameter name="Email" value="niketella1823@gmail.com">
+</parameter>
+<parameter name="mobnum" value="7842214529">
+</parameter>
+<parameter name="date" value="18">
+</parameter>
+<parameter name="month" value="December">
+</parameter>
+<parameter name="year" value="1998">
+</parameter>
+<parameter name="subj" value="I love this country where iam leaving also ">
+</parameter>
+<parameter name="curaddre" value="B-710 bgos colony vesthalipuram gyrabad">
+</parameter>
+<classes>
+<class name="july_27th.ParameterForm_practice"></class>
+</classes>
+</test>
+</suite>

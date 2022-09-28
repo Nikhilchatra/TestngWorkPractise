@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [nnvs]">
+  <parameter name="date" value="18"/>
+  <parameter name="fname" value="nikehil"/>
+  <parameter name="lname" value="tellagadda"/>
+  <parameter name="Email" value="niketella1823@gmail.com"/>
+  <parameter name="month" value="December"/>
+  <parameter name="year" value="1998"/>
+  <parameter name="mobnum" value="7842214529"/>
+  <parameter name="subj" value="I love this country where iam leaving also "/>
+  <parameter name="URL" value="https://demoqa.com/automation-practice-form"/>
+  <parameter name="curaddre" value="B-710 bgos colony vesthalipuram gyrabad"/>
+  <test name="demoqa(failed)">
+    <parameter name="date" value="18"/>
+    <parameter name="fname" value="nikehil"/>
+    <parameter name="lname" value="tellagadda"/>
+    <parameter name="Email" value="niketella1823@gmail.com"/>
+    <parameter name="month" value="December"/>
+    <parameter name="year" value="1998"/>
+    <parameter name="mobnum" value="7842214529"/>
+    <parameter name="subj" value="I love this country where iam leaving also "/>
+    <parameter name="URL" value="https://demoqa.com/automation-practice-form"/>
+    <parameter name="curaddre" value="B-710 bgos colony vesthalipuram gyrabad"/>
+    <classes>
+      <class name="july_27th.ParameterForm_practice">
+        <methods>
+          <include name="setup"/>
+          <include name="Validation" invocation-numbers="0"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- july_27th.ParameterForm_practice -->
+    </classes>
+  </test> <!-- demoqa(failed) -->
+</suite> <!-- Failed suite [nnvs] -->
